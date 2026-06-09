@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NYC Premier Painting Co</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <header class="nav">
+        <div class="logo">
+            <img src="images/logo.png" alt="Milan Painting Corp Logo">
+        </div>
+
+        <nav>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="nav-btn" href="#contact">Free Estimate</a>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <div class="badge">Interior Painting • NYC</div>
+
+            <h1>Luxury Interior Painting<br>That Transforms Spaces</h1>
+
+            <p>
+                Clean finishes, modern techniques, and professional results for apartments,
+                homes, and commercial spaces across New York City.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn-secondary">Get Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+        <div class="glass">
+            <h2>250+</h2>
+            <p>Projects Completed</p>
+        </div>
+
+        <div class="glass">
+            <h2>30+</h2>
+            <p>Years Experience</p>
+        </div>
+
+        <div class="glass">
+            <h2>100%</h2>
+            <p>Client Satisfaction</p>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section">
+        <h2>Recent Work</h2>
+
+        <div class="gallery">
+            <img src="images/03da9e0b-5bbd-4cbf-a899-e672c633b328.JPG">
+            <img src="images/083ed436-bf77-49ae-adcc-715dcb3d74da.JPG">
+            <img src="images/1180279e-d790-4500-abb6-f99629978e55.JPG">
+            <img src="images/16c1b992-2022-4b2a-b6e5-7d4767724882.JPG">
+            <img src="images/29c595e5-512e-412a-9ff2-b807b2961b80.JPG">
+            <img src="images/378ca0d3-b86b-4772-a10e-146cdf8d0d82.JPG">
+            <img src="images/42892bbe-e674-4b8d-9d12-860cb65071a5.JPG">
+            <img src="images/448974a6-fab8-47d3-ad2b-090273ad49c0.JPG">
+            <img src="images/4d0c152a-90cf-4e03-b3a1-757530bb1c17.JPG">
+            <img src="images/51365e31-da9e-4431-b245-70dfa106e7ab.JPG">
+            <img src="images/671b5465-6707-4444-94e9-f43634588039.JPG">
+            <img src="images/6cfc2d17-7557-403e-97a6-1e81bb25c2c6.JPG">
+            <img src="images/6df561a4-c108-436e-9dbe-662dcab6fe30.JPG">
+            <img src="images/72b02692-5faa-478a-aa07-1e364d713fab.JPG">
+            <img src="images/8a41cb23-adb1-4a6c-83e2-db35fb33b46b.JPG">
+            <img src="images/92bc342f-d90e-4950-8bd5-45ff9a67427e.JPG">
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+        <h2>Services</h2>
+
+        <div class="cards">
+            <div class="card">Interior Painting</div>
+            <div class="card">Water damage repair painting</div>
+            <div class="card">Accent Walls</div>
+            <div class="card">Drywall Repair</div>
+            <div class="card">Wallpaper removal and repainting</div>
+            <div class="card">Commercial Spaces</div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+        <h2>About Us</h2>
+
+        <p>
+            We are a NYC-based interior painting company focused on delivering
+            clean, modern, high-end finishes. Our work is built on precision,
+            reliability, and respect for your space.
+        </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Get a Free Estimate</h2>
+
+        <form action="https://formspree.io/f/xbdeyppr" method="POST">
+
+            <!-- Optional: subject line for cleaner emails -->
+            <input type="hidden" name="_subject" value="New Painting Estimate Request">
+
+            <input type="text" name="name" placeholder="Name" required>
+
+            <input type="email" name="email" placeholder="Email" required>
+
+            <input type="text" name="phone" placeholder="Phone" required>
+
+            <textarea name="message" placeholder="Tell us about your project" required></textarea>
+
+            <button type="submit">Send Request</button>
+
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>NYC Interior Painting • Licensed & Insured</p>
+    </footer>
+
+</body>
+
+</html>
